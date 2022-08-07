@@ -1,0 +1,23 @@
+http {
+	server {
+
+		listen 80;
+		server_name restuarent.test;
+
+		return 200 "Welocme to the restuarent";
+
+	}
+
+	server {
+
+		listen 80;
+		server_name menu.restuarent.test;
+
+		return 200 "Hi Hello Please take the menu!";
+
+
+	}
+
+
+}
+
