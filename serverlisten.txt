@@ -1,0 +1,23 @@
+http {
+	server {
+
+		listen 80;
+		server_name nginx-demo-server.test;
+
+		return 200 "This is server listen test";
+
+	}
+
+	server {
+
+		listen 80;
+		server_name nginx-2nd-demo-server.test;
+
+		return 200 "This is the second demo server test";
+
+
+	}
+
+
+}
+
