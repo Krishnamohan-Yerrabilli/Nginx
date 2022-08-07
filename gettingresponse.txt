@@ -1,0 +1,5 @@
+curl nginx-demo-server.test:80
+#This is server listen test
+
+curl nginx-2nd-demo-server.test:8080
+#This is the second demo server test
