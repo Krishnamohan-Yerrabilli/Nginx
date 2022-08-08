@@ -2,7 +2,7 @@
 
 In this repo you can find my learnings
 
-<input type="checkbox"> Basics of Nginx (Config files) /n
-<input type="checkbox"> Creating web server /n
-<input type="checkbox"> Creating Load Balancer /n
-<input type="checkbox"> Creating Reverse proxy /n
+- Basics of Nginx (Config files) 
+- Creating web server 
+- Creating Load Balancer 
+- Creating Reverse proxy 
