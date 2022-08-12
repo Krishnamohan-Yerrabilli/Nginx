@@ -1,0 +1,4 @@
+2022/08/12 11:21:18 [notice] 2471#2471: signal process started
+
+
+2022/08/12 12:15:34 [emerg] 3816#3816: invalid number of arguments in "return" directive in /etc/nginx/crash-nginx.conf:23
