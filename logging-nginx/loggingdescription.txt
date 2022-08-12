@@ -1,0 +1,28 @@
+By default 
+
+- all log files(stores users activities) in the folder /var/log/nginx
+
+- guys if you see inside this directories you can see something like this 
+
+ "
+ 
+ ls -lh /var/log/nginx/
+
+ -rw-r----- 1 www-data adm     12 Aug 25 09:40 access.log
+ -rw-r----- 1 www-data adm     12 Aug 25 09:40 error.log
+
+ "
+
+first let's remove this files and create new ones
+
+"
+# delete the old files
+sudo rm /var/log/nginx/access.log /var/log/nginx/error.log #removing files
+
+# create new files
+sudo touch /var/log/nginx/access.log /var/log/nginx/error.log #creating files
+
+#restarting the logfiles (Now the new log data will be stored here guys) 
+sudo nginx -s reopen
+
+"
