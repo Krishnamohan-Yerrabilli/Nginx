@@ -3,6 +3,7 @@
 In this repo you can find my learnings
 
 - Basics of Nginx (Config files) 
+- Logging-Nginx
 - Creating web server 
 - Creating Load Balancer
 - Creating Reverse proxy 
